@@ -1,0 +1,52 @@
+// Here you can add other styles
+.form-input{
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.error-message{
+  font-size: small;
+  color: red;
+}
+
+.master-table{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.no-data{
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* styles.css */
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px; /* Round corners */
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
